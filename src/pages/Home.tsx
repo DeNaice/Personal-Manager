@@ -1,7 +1,10 @@
 export function Home() {
-
+// TODO Auf der Home werden die Statisken Daten und weiteres stehen
     return (
-        <h1>Hello World</h1>
+        <main>
+
+            <h1>Hello World</h1>
+        </main>
     )
 
 }
