@@ -3,9 +3,9 @@ import {Route, Routes} from "react-router-dom";
 import {Header} from "./components/Header";
 import {Footer} from "./components/Footer";
 import {Home} from "./pages/Home";
-import {ToDoForm} from "./components/ToDo/ToDoForm";
-
 import {NoPage} from "./pages/NoPage";
+import {Todo} from "./pages/Todo";
+
 
 function App() {
   return (
@@ -14,7 +14,7 @@ function App() {
         <Header/>
         <Routes>
             <Route path="/" element={<Home/>}/>
-            <Route path="todo" element={<ToDoForm/>}/>
+            <Route path="todo" element={<Todo/>}/>
             <Route path="*" element={<NoPage/>}/>
         </Routes>
         <Footer/>
