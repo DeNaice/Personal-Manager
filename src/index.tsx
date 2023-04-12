@@ -5,6 +5,7 @@ import "bootstrap/dist/css/bootstrap.min.css"
 import "./css/Footer.css"
 import "./css/Home.css"
 import "./css/Header.css"
+import "./css/Todo.css"
 import {BrowserRouter} from "react-router-dom";
 
 
